@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 55px;
+  padding-top: 15px;
+}
+
+.navbar > .nav_name {
+  font-size: 35px;
+  color: #ccc;
+  padding-left: 25px;
+}
+
+.navbar > .collapse_menu {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 15px;
+}
+
+.line {
+  width: 35px;
+  height: 3.7px;
+  margin: 4px;
+  background-color: white;
+}
+
+.collapse_menu > .collapse_btn {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.collapsible {
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid white;
+  border-radius: 5px;
+  height: fit-content;
+  padding: 2px;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: crimson;
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.food-item {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 5px;
+  color: coral;
+}
+
+.container_box {
+  border: 8px solid rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.food_desc {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-family: cursive;
+  margin: 17px 5px;
+  text-align: center;
+}
+
+.content > a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  font-family: cursive;
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  width: 200px;
+  height: 46px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
